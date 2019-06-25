@@ -1,0 +1,35 @@
+# Project 5: MineWalker
+
+* Author: Tyler Johndrow
+* Class: CS121 Section 6
+* Semester: Spring 2018
+
+## Overview
+
+The program creates a grid of clickable buttons for the user to play with. They begin at start and try to reach the end before running out of 
+lives do to the grid containing mines.
+
+## Compiling and Using
+
+To use this program you will just want to run it. There will be a key on the left hand side to let you know how the color work and to show you 
+where to start. To use the code click on the start button you will only be able to move from the right and the north to begin with. If you
+wish to change the size of the grid you can click text field next to show mines/path. You can change the size any where between 5 and 20.
+
+
+## Discussion
+
+I had problems at the beginning with getting the layout corrected and with figuring out how to keep the array within bound when try to check
+for nearby mines. Creating the buttons and most of the method that were called took me very little time to accomplish what I wanted from them.
+To create this program I begun by making a button that would be used to fill the grid. Next I did the prelabs for both of the labs and wrote 
+the logic for button on the outside of the panel. Next I begun working on what happen when some clicks on the start button. I did some research
+on 2D arrays to see if they had a preset command for checking if value was within bounds. Once learning it didn't I just wrote an if statement 
+to with the value being >= 0 and the value being <= grid.length. The most challenging part of this project I would say is dealing with the 
+actionlisteners and making sure they are not doing it for the whole board if you didn't write a java file for each panel. I would definitely
+say I am a lot better with 2D arrays and guis after working on this project. I believe I would be able to make another beginner level gui after
+this project and maybe a little hard of one.
+
+## Testing
+To test the program clicked on mines to make sure it was lower lives and score and would end the game when you ran out of lives. Next I tested 
+the show mines/path button to make sure it was making a correct amount of mines for the grid size. Tested the jtextfield made sure the grid was
+staying a decent size not some crazy size you couldn't see. Last I checked the grid and made sure it would work correctly even at different 
+sizes and that if you clicked on a button a second time it wouldn't change the color to something else.
